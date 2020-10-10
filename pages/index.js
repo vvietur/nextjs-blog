@@ -17,7 +17,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="#" className="card">
+          <a href="/posts/first-post" className="card">
             <h3>Zapraszamy &rarr;</h3>
             <p>Łatwa droga aby skorzystać z sanatorium</p>
           </a>
