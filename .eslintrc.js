@@ -17,6 +17,7 @@ module.exports = {
     amd: true,
     node: true
   },
+  plugins: ['simple-import-sort'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -27,6 +28,7 @@ module.exports = {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    'simple-import-sort/sort': 'error',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
